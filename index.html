@@ -48,7 +48,7 @@ devices. To make that connection the following is exchanged:</p>
   ask your router (UPnP) to open a port while you host.</li>
 </ul>
 <p>None of this information is collected or stored by the developer. Playing alone uses no network connection,
-except for the leaderboard and crash reports described below.</p>
+except for the leaderboard, crash reports and play stats described below.</p>
 
 <h2>Online leaderboard</h2>
 <p>When you finish a weekly challenge or a Boss Rush, the game posts your hero name, score, floor and hero class to a
@@ -62,7 +62,19 @@ message with its technical stack trace, and the last lines of the game's own log
 your user folder, user name, hero name and any IP addresses from the text. The report contains no account, device
 ID or advertising ID. ntfy.sh sees your IP address as part of the request, as with any internet request. Reports are
 only used to find and fix bugs. You can turn them off at any time with "Send crash reports" in the settings (also in
-the pause menu); a copy of the last crash is always saved on your device as krasch.txt.</p>
+the pause menu); a copy of the last crash is always saved on your device as krasch.txt. The "Report a bug" form sends
+the same kind of report, plus the text you type, only when you press Send.</p>
+
+<h2>Anonymous play stats (opt-in)</h2>
+<p>After your first run the game asks once whether you want to send anonymous play stats. They are off until you say
+yes. If you do, the game sends one short line through ntfy.sh each time a run ends: the hero, game mode, difficulty,
+whether you won, how far you got (floor, wave or number of bosses), what killed you, how long the run took, your level
+and kill count, the number of players, the game version, the platform (for example Windows or Android), the language and
+the graphics level. It contains no name, account, device ID, advertising ID or any other ID, so runs cannot be linked
+to you or to each other. ntfy.sh sees your IP address as part of the request, as with any internet request; the
+developer does not store it. The lines are only used to balance the game (for example which heroes are picked and
+where players die). You can turn this off at any time with "Send anonymous play stats" in the settings (also in the
+pause menu); lines that have not been sent yet are then deleted.</p>
 
 <h2>Advertising (Android)</h2>
 <p>The Android version can offer optional rewarded video ads (for example "Second chance" after dying, or a purse of
@@ -75,7 +87,7 @@ you can change your choice at any time under "Privacy settings" in the pause men
 delete your advertising ID in your phone's Google settings. The Windows and Linux versions have no ads.</p>
 
 <h2>No analytics, no tracking, no purchases</h2>
-<p>Apart from the ads and crash reports described above, the game has no analytics, tracking, location access or in-app purchases, and it does not
+<p>Apart from the ads, crash reports and opt-in play stats described above, the game has no analytics, tracking, location access or in-app purchases, and it does not
 access your contacts, photos, camera or microphone. Codes you copy or share (for example a weekly challenge result
 or an online code) are only shared where you choose to share them.</p>
 
@@ -121,7 +133,7 @@ spelet försvinner det.</p>
   routern (UPnP) öppna en port medan du är värd.</li>
 </ul>
 <p>Utvecklaren samlar inte in eller sparar något av detta. Spelar du ensam används ingen nätverksanslutning,
-förutom topplistan och felrapporterna nedan.</p>
+förutom topplistan, felrapporterna och spelstatistiken nedan.</p>
 
 <h2>Topplistan på nätet</h2>
 <p>När du klarar veckans utmaning eller en bossrush lägger spelet ditt hjältenamn, poäng, våning och hjälteklass i ett
@@ -135,7 +147,19 @@ stackspår och de sista raderna i spelets egen logg. Innan rapporten skickas tar
 användarnamn, hjältenamnet och alla IP-adresser ur texten. Rapporten innehåller inget konto, enhets-id eller annons-id.
 ntfy.sh ser din IP-adress som vid all internettrafik. Rapporterna används bara för att hitta och rätta fel. Du kan
 stänga av dem när som helst med "Skicka felrapporter vid krasch" i inställningarna (också i pausmenyn); en kopia av
-den senaste kraschen sparas alltid på din enhet som krasch.txt.</p>
+den senaste kraschen sparas alltid på din enhet som krasch.txt. Formuläret "Rapportera en bugg" skickar samma sorts
+rapport, plus texten du skriver, bara när du trycker på Skicka.</p>
+
+<h2>Anonym spelstatistik (bara om du vill)</h2>
+<p>Efter din första omgång frågar spelet en gång om du vill skicka anonym spelstatistik. Den är avstängd tills du säger
+ja. Gör du det skickar spelet en kort rad via ntfy.sh varje gång en omgång tar slut: hjälten, spelsättet, svårigheten,
+om du vann, hur långt du kom (våning, våg eller antal bossar), vad som dödade dig, hur lång omgången var, din nivå och
+antal dödade fiender, antal spelare, spelets version, plattformen (till exempel Windows eller Android), språket och
+grafiknivån. Raden innehåller inget namn, konto, enhets-id, annons-id eller något annat id, så omgångarna går inte att
+koppla till dig eller till varandra. ntfy.sh ser din IP-adress som vid all internettrafik; utvecklaren sparar den inte.
+Raderna används bara för att balansera spelet (till exempel vilka hjältar som väljs och var spelare dör). Du kan stänga
+av det när som helst med "Skicka anonym spelstatistik" i inställningarna (också i pausmenyn); rader som inte hunnit
+skickas raderas då.</p>
 
 <h2>Annonser (Android)</h2>
 <p>Android-versionen kan erbjuda frivilliga belöningsannonser (till exempel "Andra chansen" efter att du dött eller en
@@ -148,7 +172,7 @@ och du kan ändra ditt val när som helst under "Sekretessinställningar" i paus
 eller radera ditt annons-id i telefonens Google-inställningar. Windows- och Linux-versionerna har inga annonser.</p>
 
 <h2>Ingen analys, ingen spårning, inga köp</h2>
-<p>Utöver annonserna och felrapporterna ovan har spelet ingen analys, spårning, platsåtkomst eller köp i appen, och det läser inte dina
+<p>Utöver annonserna, felrapporterna och den frivilliga spelstatistiken ovan har spelet ingen analys, spårning, platsåtkomst eller köp i appen, och det läser inte dina
 kontakter, bilder, kamera eller mikrofon. Koder du kopierar eller delar (till exempel ett resultat i veckans
 utmaning eller en internetkod) delas bara där du själv väljer.</p>
 
