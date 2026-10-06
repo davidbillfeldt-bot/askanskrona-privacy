@@ -2,7 +2,7 @@
 
 # Askans Krona – Privacy Policy
 
-_Effective 5 October 2026. Applies to the Askans Krona game for Android, Windows and Linux._
+_Effective 6 October 2026. Applies to the Askans Krona game for Android, Windows and Linux._
 
 Askans Krona is made by an independent developer (David Billfeldt, Sweden). The game has no user accounts and the developer runs no servers that receive information about you. This page explains what the game stores and what it sends over the network.
 
@@ -24,13 +24,13 @@ When you choose to play together with others, the game connects your device dire
 
 None of this information is collected or stored by the developer. Playing alone uses no network connection.
 
-## Advertising
+## Advertising (Android)
 
-The Google Play version of Askans Krona contains no advertising and no advertising or analytics software.
+The Android version can offer optional rewarded video ads (for example "Second chance" after dying, or a purse of gold at the merchant). An ad is only shown when you tap the button yourself, never in multiplayer, at most a few per hour, and the offers can be turned off in the pause menu. The ads come from Google AdMob. When ads are loaded, Google may collect and process your device's advertising ID, IP address, approximate location and information about ad interactions to show and measure ads and to prevent fraud. In the EU/EEA and UK you are asked for consent first, and you can change your choice at any time under "Privacy settings" in the pause menu. Google's policy: [policies.google.com/technologies/ads](https://policies.google.com/technologies/ads). You can also reset or delete your advertising ID in your phone's Google settings. The Windows and Linux versions have no ads.
 
 ## No analytics, no tracking, no purchases
 
-The game has no analytics, crash reporting, tracking, location access or in-app purchases, and it does not access your contacts, photos, camera or microphone. Codes you copy or share (for example a weekly challenge result or an online code) are only shared where you choose to share them.
+Apart from the ads described above, the game has no analytics, crash reporting, tracking, location access or in-app purchases, and it does not access your contacts, photos, camera or microphone. Codes you copy or share (for example a weekly challenge result or an online code) are only shared where you choose to share them.
 
 ## Children
 
@@ -48,7 +48,7 @@ If this policy changes, the new version will be posted on this page with a new e
 
 # Askans Krona – Integritetspolicy
 
-_Gäller från 5 oktober 2026. Gäller spelet Askans Krona för Android, Windows och Linux._
+_Gäller från 6 oktober 2026. Gäller spelet Askans Krona för Android, Windows och Linux._
 
 Askans Krona görs av en oberoende utvecklare (David Billfeldt, Sverige). Spelet har inga användarkonton och utvecklaren har inga servrar som tar emot uppgifter om dig. Här står vad spelet sparar och vad det skickar över nätet.
 
@@ -70,13 +70,13 @@ När du väljer att spela med andra kopplar spelet ihop din enhet direkt med de 
 
 Utvecklaren samlar inte in eller sparar något av detta. Spelar du ensam används ingen nätverksanslutning.
 
-## Annonser
+## Annonser (Android)
 
-Google Play-versionen av Askans Krona har inga annonser och ingen annons- eller analysprogramvara.
+Android-versionen kan erbjuda frivilliga belöningsannonser (till exempel "Andra chansen" efter att du dött eller en guldpung hos handlaren). En annons visas bara när du själv trycker på knappen, aldrig i flerspelarläge, högst några per timme, och erbjudandena kan stängas av i pausmenyn. Annonserna kommer från Google AdMob. När annonser laddas kan Google samla in och behandla enhetens annons-id, IP-adress, ungefärlig plats och uppgifter om hur du interagerar med annonser, för att visa och mäta annonser och förhindra bedrägerier. Inom EU/EES och Storbritannien får du först ge ditt samtycke, och du kan ändra ditt val när som helst under "Sekretessinställningar" i pausmenyn. Googles policy: [policies.google.com/technologies/ads](https://policies.google.com/technologies/ads). Du kan också återställa eller radera ditt annons-id i telefonens Google-inställningar. Windows- och Linux-versionerna har inga annonser.
 
 ## Ingen analys, ingen spårning, inga köp
 
-Spelet har ingen analys, kraschrapportering, spårning, platsåtkomst eller köp i appen, och det läser inte dina kontakter, bilder, kamera eller mikrofon. Koder du kopierar eller delar (till exempel ett resultat i veckans utmaning eller en internetkod) delas bara där du själv väljer.
+Utöver annonserna ovan har spelet ingen analys, kraschrapportering, spårning, platsåtkomst eller köp i appen, och det läser inte dina kontakter, bilder, kamera eller mikrofon. Koder du kopierar eller delar (till exempel ett resultat i veckans utmaning eller en internetkod) delas bara där du själv väljer.
 
 ## Barn
 
